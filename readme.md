@@ -29,13 +29,12 @@ Iniciar sesión en su cuenta IBM Cloud, si no tiene cuenta puede crear una.
 En la sección de catálogo busque  Visual Recognition y seleccione dicho servicio.
 
 <img src="https://user-images.githubusercontent.com/56199403/79892028-769db900-83c7-11ea-8607-5cbdc9a7ccce.jpg" width="600">
-![Image 3](https://user-images.githubusercontent.com/56199403/79892028-769db900-83c7-11ea-8607-5cbdc9a7ccce.jpg)
 
 #### C).
 
 Para crear el servicio lo primero se realiza es seleccionar la región, para esta guía se seleccionó Dallas, posteriormente elija el plan que se acomode mejor a sus necesidades. Asignele un nombre a este servicio y por ultimo cree el servicio dando click al boton "create".
+<img src="https://user-images.githubusercontent.com/56199403/79892286-f2980100-83c7-11ea-873f-e44f6d76e44f.jpg" width="600">
 
-![image 4](https://user-images.githubusercontent.com/56199403/79892286-f2980100-83c7-11ea-873f-e44f6d76e44f.jpg)
 
 
 
