@@ -13,7 +13,7 @@ Modelo explícito: si una imagen resulta inadecuada para uso general.
 Modelo de alimentos: específico para imágenes de alimentos.
 También puede entrenar modelos personalizados para crear clases especializadas.
 
-<img src="https://github.com/mariolarte19/VR-Aseguradora/issues/7#issue-604187977" width="600">
+<img src="https://github.com/mariolarte19/VR-Aseguradora/issues/7#issue-604187977">
 
 
 ### 2. Pre-Requisitos 📋
