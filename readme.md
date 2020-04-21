@@ -28,7 +28,7 @@ Iniciar sesión en su cuenta IBM Cloud, si no tiene cuenta puede crear una.
 
 En la sección de catálogo busque  Visual Recognition y seleccione dicho servicio.
 
-<img src="https://user-images.githubusercontent.com/56199403/79892028-769db900-83c7-11ea-8607-5cbdc9a7ccce.jpg" width="100">
+<img src="https://user-images.githubusercontent.com/56199403/79892028-769db900-83c7-11ea-8607-5cbdc9a7ccce.jpg" width="600">
 ![Image 3](https://user-images.githubusercontent.com/56199403/79892028-769db900-83c7-11ea-8607-5cbdc9a7ccce.jpg)
 
 #### C).
