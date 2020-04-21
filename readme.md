@@ -1,4 +1,4 @@
-# VR-Watson-Sura
+
 
 # GUIA DE VISUAL RECOGNITION
 IBM Watson Visual Recognition es una herramienta que utiliza algoritmos de machine learning, permitiendo a los usuarios identificar automáticamente sujetos, objetos, contenidos en la imagen, organizar y clasificar dichas imágenes en categorías lógicas.
