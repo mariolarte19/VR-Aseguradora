@@ -33,6 +33,8 @@ En la sección de catálogo busque  Visual Recognition y seleccione dicho servic
 #### C).
 
 Para crear el servicio lo primero se realiza es seleccionar la región, para esta guía se seleccionó Dallas, posteriormente elija el plan que se acomode mejor a sus necesidades. Asignele un nombre a este servicio y por ultimo cree el servicio dando click al boton "create".
+
+
 <img src="https://user-images.githubusercontent.com/56199403/79892286-f2980100-83c7-11ea-873f-e44f6d76e44f.jpg" width="600">
 
 
@@ -43,17 +45,19 @@ Para crear el servicio lo primero se realiza es seleccionar la región, para est
 Las empresas están resolviendo sus desafíos únicos mediante el uso de modelos personalizados para reconocer cualquier objeto, escena o atributo. Para este caso utilizaremos modelos personalizados para generar automáticamente estimaciones de los costos de reparación basados en imágenes de daños en el automóvil enviadas a medida.
 
 #### Paso 1:
-Seleccione el servicio de Visual Recognition, este se identifica con el siguiente icono ![Icono 1](https://user-images.githubusercontent.com/56199403/79884639-06893600-83bb-11ea-9d2e-381ac03c1d58.jpg).
+Seleccione el servicio de Visual Recognition, este se identifica con el siguiente icono <img src="https://user-images.githubusercontent.com/56199403/79884639-06893600-83bb-11ea-9d2e-381ac03c1d58.jpg" width="100">
+
 
 #### Paso 2:
 Posteriormente se debe dar clic en “Launch Watson Studio”, y en la nueva pestaña que se cargó seleccionamos el tipo de modelo que se desea utilizar, para esta guía se utilizó “Classify Images”.
 
-![Image 1](https://user-images.githubusercontent.com/56199403/79890486-2f162d80-83c5-11ea-8011-261da082c822.jpg)
+<img src="https://user-images.githubusercontent.com/56199403/79890486-2f162d80-83c5-11ea-8011-261da082c822.jpg" width="600">
 
 #### Paso 3:
 Ahora procedemos a subir al modelo el set de imágenes positivas, las cuales proporcionarán ejemplos de imágenes reales de objetos para clasificar como miembros de esa clase.
 
-![Image 2](https://user-images.githubusercontent.com/56199403/79891059-0cd0df80-83c6-11ea-9b19-ba8c7c4bd0a5.jpg)
+ <img src="(https://user-images.githubusercontent.com/56199403/79891059-0cd0df80-83c6-11ea-9b19-ba8c7c4bd0a5.jpg" width="500">
+
 
 *Nota: Hay que tener en cuenta que el número mínimo recomendado de imágenes para tener en los conjuntos de imágenes positivas antes de evaluar los resultados de la prueba es de 50 imágenes y los formatos que acepta el modelo son .jpeg, .png, o .zip* 💡
 
