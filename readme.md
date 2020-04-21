@@ -4,7 +4,12 @@
 IBM Watson Visual Recognition es una herramienta que utiliza algoritmos de machine learning, permitiendo a los usuarios identificar automáticamente sujetos, objetos, contenidos en la imagen, organizar y clasificar dichas imágenes en categorías lógicas.
 Este servicio es muy intuitivo, sus resultados son detallados y rápidos debido a que los modelos están ampliamnete entrenados.
 
-### Pre-Requisitos 📋
+
+### 1. Conceptos Básicos: 📌
+
+
+
+### 2. Pre-Requisitos 📋
 
 
 #### A).
@@ -27,7 +32,7 @@ Para crear el servicio lo primero se realiza es seleccionar la región, para est
 
 
 
-### 2. Visual Recongition por medio Watson Studio en IBM CLOUD 🚀
+### 3. Visual Recongition por medio Watson Studio en IBM CLOUD 🚀
 ### Caso de uso:
 Las empresas están resolviendo sus desafíos únicos mediante el uso de modelos personalizados para reconocer cualquier objeto, escena o atributo. Para este caso utilizaremos modelos personalizados para generar automáticamente estimaciones de los costos de reparación basados en imágenes de daños en el automóvil enviadas a medida.
 
@@ -55,7 +60,7 @@ Procedemos a entrenar seleccionando el siguiente botón ![Icono 2](https://user-
 #### Paso 6:
 Una vez entrenado el modelo, seleccionamos la opción de "Test" y probamos el modelo
 
-## Construido con 🛠️
+##  Construido con 🛠️
 IBM Cloud, Visual Recognition: [VR](https://cloud.ibm.com/catalog/services/visual-recognition)
 
 
