@@ -9,23 +9,22 @@ Este servicio es muy intuitivo, sus resultados son detallados y rápidos debido 
 
 #### A).
 
-Iniciar sesión en su cuenta IBM Cloud, si no tiene cuenta puede crear una. [CREAR CUENTA IBM CLOUD](https://cloud.ibm.com/registration)
+Iniciar sesión en su cuenta IBM Cloud, si no tiene cuenta puede crear una. 
+
+[CREAR CUENTA IBM CLOUD](https://cloud.ibm.com/registration)
 
 #### B).
 
-En la sección de catálogo debe buscar Visual Recognition y se selecciona dicho servicio
+En la sección de catálogo busque  Visual Recognition y seleccione dicho servicio.
 
 ![Image 3](https://user-images.githubusercontent.com/56199403/79892028-769db900-83c7-11ea-8607-5cbdc9a7ccce.jpg)
 
 #### C).
 
-Para crear el servicio lo primero se realiza es seleccionar la región, para esta guía se seleccionó Dallas, posteriormente se selecciona el tipo de plan que se acomode mejor a sus necesidades y por último se le asigna un nombre al servicio. 
+Para crear el servicio lo primero se realiza es seleccionar la región, para esta guía se seleccionó Dallas, posteriormente elija el plan que se acomode mejor a sus necesidades. Asignele un nombre a este servicio y por ultimo cree el servicio dando click al boton "create".
 
 ![image 4](https://user-images.githubusercontent.com/56199403/79892286-f2980100-83c7-11ea-873f-e44f6d76e44f.jpg)
 
-#### D).
-
-Por último se selecciona la opción de "Create".
 
 
 ### 2. Visual Recongition por medio Watson Studio en IBM CLOUD 🚀
@@ -33,7 +32,7 @@ Por último se selecciona la opción de "Create".
 Las empresas están resolviendo sus desafíos únicos mediante el uso de modelos personalizados para reconocer cualquier objeto, escena o atributo. Para este caso utilizaremos modelos personalizados para generar automáticamente estimaciones de los costos de reparación basados en imágenes de daños en el automóvil enviadas a medida.
 
 #### Paso 1:
-Se debe seleccionar el servicio de Visual Recognition, este se puede identificar con el siguiente icono ![Icono 1](https://user-images.githubusercontent.com/56199403/79884639-06893600-83bb-11ea-9d2e-381ac03c1d58.jpg).
+Seleccione el servicio de Visual Recognition, este se identifica con el siguiente icono ![Icono 1](https://user-images.githubusercontent.com/56199403/79884639-06893600-83bb-11ea-9d2e-381ac03c1d58.jpg).
 
 #### Paso 2:
 Posteriormente se debe dar clic en “Launch Watson Studio”, y en la nueva pestaña que se cargó seleccionamos el tipo de modelo que se desea utilizar, para esta guía se utilizó “Classify Images”.
@@ -51,7 +50,7 @@ Ahora procedemos a subir al modelo el set de imágenes positivas, las cuales pro
 Una vez cargado el set positivo, se selecciona la clase “Negative” e ingresamos el set de imágenes negativas, que son ejemplos de imágenes reales de objetos para NO ser clasificados como miembros de esa clase.
 
 #### Paso 5:
-Una vez cargados los sets de imágenes al modelo, se procede a entrenar seleccionando el siguiente botón ![Icono 2](https://user-images.githubusercontent.com/56199403/79891459-a26c6f00-83c6-11ea-8cf5-c8d87b52adec.jpg)
+Procedemos a entrenar seleccionando el siguiente botón ![Icono 2](https://user-images.githubusercontent.com/56199403/79891459-a26c6f00-83c6-11ea-8cf5-c8d87b52adec.jpg)
 
 #### Paso 6:
 Una vez entrenado el modelo, seleccionamos la opción de "Test" y probamos el modelo
