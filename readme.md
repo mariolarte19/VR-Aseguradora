@@ -154,7 +154,7 @@ ibmcloud dev help
 
 ## Paso 1.
 
-Selecciona el servicio de Visual Recognition, este se puede identificar con el siguiente icono ![Resource list - IBM Cloud - Google Chrome 4_21_2020 9_27_40 AM (2)](https://user-images.githubusercontent.com/56199403/79883722-e147f800-83b9-11ea-9a11-f0a8eb5bcfd2.png).
+Selecciona el servicio de Visual Recognition, este se puede identificar con el siguiente icono ![Icono 1](https://user-images.githubusercontent.com/56199403/79884639-06893600-83bb-11ea-9d2e-381ac03c1d58.jpg).
 
 ## Paso 2.
 
