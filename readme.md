@@ -7,23 +7,23 @@ Este servicio es muy intuitivo, sus resultados son detallados y rápidos debido 
 ### Pre-Requisitos 📋
 
 
-#### Primero.
+#### A).
 
-Iniciar sesión en IBM Cloud, en caso de que no se cuente con una cuenta, crearla en este enlace https://cloud.ibm.com/registration
+Iniciar sesión en su cuenta IBM Cloud, si no tiene cuenta puede crear una. [CREAR CUENTA IBM CLOUD](https://cloud.ibm.com/registration)
 
-#### Segundo.
+#### B).
 
 En la sección de catálogo debe buscar Visual Recognition y se selecciona dicho servicio
 
 ![Image 3](https://user-images.githubusercontent.com/56199403/79892028-769db900-83c7-11ea-8607-5cbdc9a7ccce.jpg)
 
-#### Tercero.
+#### C).
 
 Para crear el servicio lo primero se realiza es seleccionar la región, para esta guía se seleccionó Dallas, posteriormente se selecciona el tipo de plan que se acomode mejor a sus necesidades y por último se le asigna un nombre al servicio. 
 
 ![image 4](https://user-images.githubusercontent.com/56199403/79892286-f2980100-83c7-11ea-873f-e44f6d76e44f.jpg)
 
-#### Cuarto.
+#### D).
 
 Por último se selecciona la opción de "Create".
 
