@@ -35,7 +35,7 @@ En la sección de catálogo busque  Visual Recognition y seleccione dicho servic
 Para crear el servicio lo primero se realiza es seleccionar la región, para esta guía se seleccionó Dallas, posteriormente elija el plan que se acomode mejor a sus necesidades. Asignele un nombre a este servicio y por ultimo cree el servicio dando click al boton "create".
 
 
-<img src="https://user-images.githubusercontent.com/56199403/79892286-f2980100-83c7-11ea-873f-e44f6d76e44f.jpg" width="600">
+<img src="https://user-images.githubusercontent.com/56199403/79892286-f2980100-83c7-11ea-873f-e44f6d76e44f.jpg" width="700">
 
 
 
@@ -65,7 +65,8 @@ Ahora procedemos a subir al modelo el set de imágenes positivas, las cuales pro
 Una vez cargado el set positivo, se selecciona la clase “Negative” e ingresamos el set de imágenes negativas, que son ejemplos de imágenes reales de objetos para NO ser clasificados como miembros de esa clase.
 
 #### Paso 5:
-Procedemos a entrenar seleccionando el siguiente botón ![Icono 2](https://user-images.githubusercontent.com/56199403/79891459-a26c6f00-83c6-11ea-8cf5-c8d87b52adec.jpg)
+Procedemos a entrenar seleccionando el siguiente botón <img src="(https://user-images.githubusercontent.com/56199403/79891459-a26c6f00-83c6-11ea-8cf5-c8d87b52adec.jpg" width="60">
+
 
 #### Paso 6:
 Una vez entrenado el modelo, seleccionamos la opción de "Test" y probamos el modelo
