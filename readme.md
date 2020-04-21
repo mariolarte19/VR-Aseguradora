@@ -66,7 +66,7 @@ Una vez cargado el set positivo, se selecciona la clase “Negative” e ingresa
 
 #### Paso 5:
 Procedemos a entrenar seleccionando el siguiente botón <img src="(https://user-images.githubusercontent.com/56199403/79891459-a26c6f00-83c6-11ea-8cf5-c8d87b52adec.jpg" width="60">
-
+![Icono 2](https://user-images.githubusercontent.com/56199403/79891459-a26c6f00-83c6-11ea-8cf5-c8d87b52adec.jpg)
 
 #### Paso 6:
 Una vez entrenado el modelo, seleccionamos la opción de "Test" y probamos el modelo
