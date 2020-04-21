@@ -5,7 +5,14 @@ IBM Watson Visual Recognition es una herramienta que utiliza algoritmos de machi
 Este servicio es muy intuitivo, sus resultados son detallados y rápidos debido a que los modelos están ampliamnete entrenados.
 
 
-### 1. Conceptos Básicos: 📌
+### 1. Información Básicos: 📌
+Watson ofrece los siguientes modelos con resultados precisos:
+
+Modelo General: clasificación predeterminada procedente de miles de clases.
+Modelo explícito: si una imagen resulta inadecuada para uso general.
+Modelo de alimentos: específico para imágenes de alimentos.
+También puede entrenar modelos personalizados para crear clases especializadas.
+
 
 
 
