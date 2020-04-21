@@ -65,7 +65,7 @@ Ahora procedemos a subir al modelo el set de imágenes positivas, las cuales pro
 Una vez cargado el set positivo, se selecciona la clase “Negative” e ingresamos el set de imágenes negativas, que son ejemplos de imágenes reales de objetos para NO ser clasificados como miembros de esa clase.
 
 #### Paso 5:
-Procedemos a entrenar seleccionando el siguiente botón <img src="(https://user-images.githubusercontent.com/56199403/79891459-a26c6f00-83c6-11ea-8cf5-c8d87b52adec.jpg" width="60">
+Procedemos a entrenar seleccionando el siguiente botón <img src=("https://user-images.githubusercontent.com/56199403/79891459-a26c6f00-83c6-11ea-8cf5-c8d87b52adec.jpg" width="60">
 ![Icono 2](https://user-images.githubusercontent.com/56199403/79891459-a26c6f00-83c6-11ea-8cf5-c8d87b52adec.jpg)
 
 #### Paso 6:
