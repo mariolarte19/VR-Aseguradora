@@ -174,24 +174,6 @@ Ahora seleccionamos la clase “Negative” e ingresamos el set de imágenes neg
 
 Una vez cargados los sets de imágenes al modelo, se procede a entrenar seleccionando el siguiente botón 
 
-## Ejecutando  ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-
-### Pruebe el modelo ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
-
 ## Construido con 🛠️
 Mayi.
 
