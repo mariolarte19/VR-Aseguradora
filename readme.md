@@ -45,7 +45,7 @@ Para crear el servicio lo primero se realiza es seleccionar la región, para est
 Las empresas están resolviendo sus desafíos únicos mediante el uso de modelos personalizados para reconocer cualquier objeto, escena o atributo. Para este caso utilizaremos modelos personalizados para generar automáticamente estimaciones de los costos de reparación basados en imágenes de daños en el automóvil enviadas a medida.
 
 #### Paso 1:
-Seleccione el servicio de Visual Recognition, este se identifica con el siguiente icono <img src="https://user-images.githubusercontent.com/56199403/79884639-06893600-83bb-11ea-9d2e-381ac03c1d58.jpg" width="100">
+Seleccione el servicio de Visual Recognition, este se identifica con el siguiente icono <img src="https://user-images.githubusercontent.com/56199403/79884639-06893600-83bb-11ea-9d2e-381ac03c1d58.jpg" width="50">
 
 
 #### Paso 2:
@@ -56,7 +56,7 @@ Posteriormente se debe dar clic en “Launch Watson Studio”, y en la nueva pes
 #### Paso 3:
 Ahora procedemos a subir al modelo el set de imágenes positivas, las cuales proporcionarán ejemplos de imágenes reales de objetos para clasificar como miembros de esa clase.
 
- <img src="(https://user-images.githubusercontent.com/56199403/79891059-0cd0df80-83c6-11ea-9b19-ba8c7c4bd0a5.jpg" width="500">
+ <img src="(https://user-images.githubusercontent.com/56199403/79891059-0cd0df80-83c6-11ea-9b19-ba8c7c4bd0a5.jpg" width="600">
 
 
 *Nota: Hay que tener en cuenta que el número mínimo recomendado de imágenes para tener en los conjuntos de imágenes positivas antes de evaluar los resultados de la prueba es de 50 imágenes y los formatos que acepta el modelo son .jpeg, .png, o .zip* 💡
