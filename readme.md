@@ -1,197 +1,42 @@
 # VR-Watson-Sura
 
 # GUIA DE VISUAL RECOGNITION
-Descripción
-
-
-## SERVICIO DE VR: 
-
-_Iniciualmente debe acceder al shell de IBM Cloud desde el siguinete link:_
-```
-https://cloud.ibm.com/shell
-```
-_1.	Inicie sesión desde la consola de IBM Cloud Shell, para hacerlo utilizamos el siguiente comando:_
-```
-ibmcloud login
-```
-_Si se rechazan sus credenciales, puede que esté utilizando un ID federado. Para iniciar sesión con un ID federado, utilice el distintivo --sso. Consulte Inicio de sesión con un ID federado para obtener más detalles. Una vez instalado, puede acceder a IBM Cloud desde su línea de comandos con el prefijo bx._
-```
-ibmcloud login --sso
-```
-_2.	Configure el entorno de trabajo. Para esto debe colocar el siguiente comando en la terminal._
-```
-ibmcloud target
-```
-_Si se ve que faltan faltan algunos campos por configurar,  para hacerlo se debe digitar los siguientes comandos._
-```
-ibmcloud target -r us-east -g openshift-workshop
-```
-_y por ultimo digitar el siguiente comando:_
-```
-ibmcloud target --cf
-```
-_De este modo damos por terminada la configuración inicial para el despliegue de la aplicación._
-
-_3.	Inicie sesión e ingrese desde la CLI de OpenShift al clúster en el que se va a trabajar._
-
-_Este paso se realiza por medio del siguiente comando:_
-```
-oc login https://c100-e.us-east.containers.cloud.ibm.com:31320 --token=xn9VJ1NhrWktYArWnBH_e25e6ra3uYCuEQ0ZrFrQ-vA
-```
-_**NOTA: Este comando es único para acceder al cluster que lleva por nombre openshift3.11 el cual se dispuso para el desarrollo de este laboratorio.**_
-
-_Si se desea acceder a otro clúster que tengamos aprovisionado en nuestra cuenta de IBM Cloud se deben realizar los siguientes pasos:_
-
-_•	Ingresar a la plataforma de IBM cloud con sus credenciales de inicio de sesión._
-
-_•	Diríjase al resource list._
-
-_•	Diríjase a la sección de clústers y dar clic en el que se desea acceder._
-
-_•	Se da clic en el botón OpenShift web console._
-
-_•	Ahora en la parte superior derecha se da clic sobre el ID del correo con el que ingresamos y luego en la sección que dice Copy Login Command._
-
-
-<img width="144" alt="1" src="https://user-images.githubusercontent.com/60987042/76917049-53479180-6890-11ea-91a1-b2c2c9213729.PNG">
-
-_•	Y por último volvemos a la terminal que se estaba utilizando pegamos y damos enter._
-
-_4.	Cree un nuevo proyecto en el cluster de la siguiente manera:_
-```
-oc new-project <projectname>
-```
-_**Nota:** Para el **projectname** coloque **openshift + las iniciales de su nombre y apellido.**_
-
-_5.	Acceda al proyecto que acabo de crear de la siguiente manera:_
-
-```
-oc project <projectname>
-```
-
-_6.	Clone el repositorio de la aplicación que se desea desplegar._
-
-_**App de hello Word en angular:** https://github.com/emeloibmco/AngularHelloWorld_
-
-_**App de listas en angular:** https://github.com/emeloibmco/AngularWebList_
-
-_7.	Desde el Shell de IBM cloud digitar el comando:_
-
-```
-Git clone <url_repositorio>
-```
-_8.	Dirigirse desde a esta carpeta con el comando:_
-
-_•	Para la carpeta del proyecto Hello word:_
-```
-cd AngularHelloWorld
-```
-•	Para la carpeta del proyecto listas.
-```
-cd AngularWebList
-```
-_9.	Para desplegar la aplicación en OpenShift es necesario escribir el siguiente comando:_
-```
-npx nodeshift --strictSSL=false --dockerImage=nodeshift/ubi8-s2i-web-app --imageTag=10.x --build.env OUTPUT_DIR=dist/angular-web-app --expose
-```
-
-_El resultado de este comando va a ser una respuesta de este tipo, que nos indica que 
-la aplicación se desplego correctamente._
-
-<img width="865" alt="2" src="https://user-images.githubusercontent.com/60987042/76918560-9441a500-6894-11ea-954f-62c8076b8903.PNG">
-
-_10.	Para poder acceder al la URL de la aplicación y realizar la verificación de la misma debemos:_
-
-_•Acceder a IBM cloud._
-
-_•Dirigirse al resource list._
-
-_•Dirigirse a la sección de clusters._
-
-_•Ingresar al cluster que lleva por nombre openshift.311._
-
-_•Ingrese a la sección de openshift web console._
-
-_•Buscar el proyecto que creo con sus iniciales y buscar la aplicación que se desplego._
-
-<img width="789" alt="3" src="https://user-images.githubusercontent.com/60987042/76919117-f222bc80-6895-11ea-835e-cb689f2b61bb.PNG">
-
-_Y por último solo faltaría dar clic en el link que lo llevara a la aplicación desplegada._
-
-<img width="688" alt="4" src="https://user-images.githubusercontent.com/60987042/76919471-074c1b00-6897-11ea-95c7-e8675b91ec80.PNG">
-
-_De esta forma se daría por terminado el despliegue de la aplicación angular en openshift._
-
-# _ANEXOS._
-
-_Si se desea realizar el mismo despliegue, pero desde la maquina local se deberían seguir los siguientes pasos:_
+IBM Watson Visual Recognition es una herramienta que utiliza algoritmos de machine learning, permitiendo a los usuarios identificar automáticamente sujetos, objetos, contenidos en la imagen, organizar y clasificar dichas imágenes en categorías lógicas.
+Este servicio es muy intuitivo, sus resultados son detallados y rápidos debido a que los modelos están ampliamnete entrenados.
 
 ### Pre-requisitos 📋
 
-_Paso 1._ 
+### 2. Visual Recongition por medio Watson Studio en IBM CLOUD 🚀
 
-Iniciar sesión en IBM Cloud, en caso de que no tengas una cuenta, debes crearla en este enlace https://cloud.ibm.com/registration
-
-_Paso 2._
-
-En la sección de catálogo se debe buscar Visual Recognition y seleccionar dicho servicio
-
-
-
-
-
-### Paso a Paso 🚀
-
-_Paso 1._
-
+### Paso 1.
 Selecciona el servicio de Visual Recognition, este se puede identificar con el siguiente icono ![Icono 1](https://user-images.githubusercontent.com/56199403/79884639-06893600-83bb-11ea-9d2e-381ac03c1d58.jpg).
 
-_Paso 2._
-
+### Paso 2.
 Posteriormente debes dar clic en “Launch Watson Studio”, y en la nueva pestaña que se cargó debes seleccionar el tipo de modelo que deseas utilizar, para esta guía se utilizó “Classify Images”.
 
-_Paso 3._
-
+### Paso 3.
 Ahora procedemos a subir al modelo el set de imágenes positivas, las cuales proporcionarán ejemplos de imágenes reales de objetos para clasificar como miembros de esa clase.
 
-#### Nota: Hay que tener en cuenta que el número mínimo recomendado de imágenes para tener en los conjuntos de imágenes positivas antes de evaluar los resultados de la prueba es de 50 imágenes y los formatos que acepta el modelo son .jpeg, .png, o .zip.
+#### Nota 💡 : Hay que tener en cuenta que el número mínimo recomendado de imágenes para tener en los conjuntos de imágenes positivas antes de evaluar los resultados de la prueba es de 50 imágenes y los formatos que acepta el modelo son .jpeg, .png, o .zip.
 
-_Paso 4._
-
+### Paso 4. 
 Ahora seleccionamos la clase “Negative” e ingresamos el set de imágenes negativas, que son ejemplos de imágenes reales de objetos para NO ser clasificados como miembros de esa clase.
 
-_Paso 5._
-
+### Paso 5.
 Una vez cargados los sets de imágenes al modelo, se procede a entrenar seleccionando el siguiente botón 
 
 ## Construido con 🛠️
 Mayi.
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
 ## Wiki 📖
 
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
+
 
 ## Versionado 📌
 
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
-
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-<img width="144" alt="1" src="https://user-images.githubusercontent.com/60987042/76917049-53479180-6890-11ea-91a1-b2c2c9213729.PNG">
 
