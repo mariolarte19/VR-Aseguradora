@@ -8,15 +8,13 @@ Este servicio es muy intuitivo, sus resultados son detallados y rápidos debido 
 ### 1. Información Básicos: 📌
 Watson ofrece los siguientes modelos con resultados precisos:
 
-Modelo General: clasificación predeterminada procedente de miles de clases.
+- Modelo General: clasificación predeterminada procedente de miles de clases.
+- Modelo explícito: si una imagen resulta inadecuada para uso general.
+- Modelo de alimentos: específico para imágenes de alimentos.
 
-Modelo explícito: si una imagen resulta inadecuada para uso general.
+#También puede entrenar modelos personalizados para crear clases especializadas.#
 
-Modelo de alimentos: específico para imágenes de alimentos.
-
-También puede entrenar modelos personalizados para crear clases especializadas.
-
-La imagen siguiente muestra el proceso de crear y utilizar Visual Recognition:
+En la siguiente imagen se evidencia el proceso de crear y utilizar Visual Recognition:
 
 
 ![20](https://user-images.githubusercontent.com/44415995/79902405-10209700-83d7-11ea-8529-0c4972a649d1.PNG)
