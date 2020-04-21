@@ -59,7 +59,7 @@ Posteriormente se debe dar clic en “Launch Watson Studio”, y en la nueva pes
 #### Paso 3:
 Ahora procedemos a subir al modelo el set de imágenes positivas, las cuales proporcionarán ejemplos de imágenes reales de objetos para clasificar como miembros de esa clase.
 
- <img src=" https://user-images.githubusercontent.com/56199403/79890486-2f162d80-83c5-11ea-8011-261da082c822.jpge" width="250" height="500">
+![Image 2](https://user-images.githubusercontent.com/56199403/79903494-cb95fb00-83d8-11ea-8363-159200506f83.jpg ) 
 
 
 *Nota: Hay que tener en cuenta que el número mínimo recomendado de imágenes para tener en los conjuntos de imágenes positivas antes de evaluar los resultados de la prueba es de 50 imágenes y los formatos que acepta el modelo son .jpeg, .png, o .zip* 💡
